@@ -40,6 +40,7 @@ label{
 
 #namelabel{
     margin-right: 8em;
+    margin-top: 0;
 }
 #emaillabel{
     margin-right: 2.5em;
@@ -50,7 +51,7 @@ input {
 }
 
 #password{
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 #signupbreak{
@@ -72,4 +73,18 @@ a{
 
 a:hover{
     text-decoration-line: underline;
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background-color: lightslategrey;
+    color: #fd0000;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+button:hover{
+    background-color: #5c6873;
 }
