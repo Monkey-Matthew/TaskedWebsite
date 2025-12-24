@@ -1,6 +1,12 @@
+html, body{
+    margin: 0;
+}
+
+
 .container{
     background-color: lightslategrey;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -19,6 +25,15 @@
 }
 
 h1{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(90deg, #9e0a19, #650610);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+}
+h2{
     font-size: 2rem;
     font-family: 'Courier New', sans-serif;
     margin-bottom: 0px;
@@ -57,7 +72,7 @@ input {
     margin-bottom: 1em;
 }
 
-h2{
+h3{
     font-size: 1.2rem;
     margin-bottom: 1em;
 }
