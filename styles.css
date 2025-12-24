@@ -1,0 +1,75 @@
+.container{
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 400px;
+    height: 600px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid red;
+    box-shadow: 0px 0px 10px 5px darkslategrey;
+    padding-top: 5%;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Courier New', sans-serif;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+label{
+    margin-top: 2em;
+    margin-right: 5.5em;
+    font-size: 1rem;
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+}
+
+#namelabel{
+    margin-right: 8em;
+}
+#emaillabel{
+    margin-right: 2.5em;
+}
+
+input {
+    padding: 10px 0px 10px 0px;
+}
+
+#password{
+    margin-bottom: 5em;
+}
+
+#signupbreak{
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
